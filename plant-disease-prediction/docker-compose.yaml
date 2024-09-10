@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+  tf-serving:
+    container_name: tensorflow
+    image: tensorflow/serving
+    command:
+      - "--rest_api_port=8501"
+      - "--model_config_file=/plant-disease-prediction/models.config"
+    ports:
+      - "8501:8501"
+    volumes:
+      - ".:/plant-disease-prediction"
+    networks:
+      - pdp_network
+  server:
+    container_name: server
+    build: ./server
+    command: sh -c "uvicorn main:app --reload --port=8000 --host=0.0.0.0"
+    ports:
+      - 8000:8000
+    volumes:
+      - ./server:/server
+    networks:
+      - pdp_network
+
+networks:
+  pdp_network:
+    driver: bridge
