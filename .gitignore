@@ -1,6 +1,6 @@
 /app/node_modules
 /app/android/app/google-services.json
-/app/src/assets/.ENV
+/app/src/assets/ENV.js
 /plant-disease-prediction/training/dataset
 /plant-disease-prediction/training/PlantVillage
 /report
