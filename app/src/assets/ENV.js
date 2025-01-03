@@ -1,5 +1,5 @@
-export const GEOAPIFY_API_KEY = "";
-export const GOV_DATA_KEY = "";
-export const OPEN_WEATHER_KEY = "";
-export const CHATBOT_BOT_ID = "";
-export const CHATBOT_CLIENT_ID = "";
+export const GEOAPIFY_API_KEY = "d548c5ed24604be6a9dd0d989631f783";
+export const GOV_DATA_KEY = "579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b";
+export const OPEN_WEATHER_KEY = "2b64859b41f804a5da0ed18e632f701b";
+export const CHATBOT_BOT_ID = "3e24736f-9911-46b7-aa02-8df5b1e2965a";
+export const CHATBOT_CLIENT_ID = "3e24736f-9911-46b7-aa02-8df5b1e2965a";
