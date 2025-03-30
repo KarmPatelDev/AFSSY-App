@@ -2,6 +2,9 @@
 #
 .DS_Store
 
+android/app/google-services.json
+src/assets/ENV.js
+
 # Xcode
 #
 build/

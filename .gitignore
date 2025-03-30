@@ -1,9 +1,2 @@
-/.vscode
-/app/node_modules
-/app/android/app/google-services.json
-/app/src/assets/ENV.js
-/plant-disease-prediction/server/__pycache__
-/plant-disease-prediction/server/venv
-/plant-disease-prediction/training/dataset
-/plant-disease-prediction/training/PlantVillage
-/report
+.vscode/
+report/
